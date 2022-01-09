@@ -1,0 +1,22 @@
+EL PROJECTE GUARDA ELS USUARIS, COMANDES I PRODUCTES AMB FITXERS DE TEXT DE DUES FORMES
+
+AMB DIRECTORIS:
+- Dins els directoris trobem arxius amb el nom o id del usuari, comanda o producte, i cada arxiu conté la informació del respectiu usuari, comanda o producte
+- Dins aquests directoris només apareixen els usuaris, comandes o productes actius, es a dir, que si l'administrador esborra algun, aquest fitxer s'esborra del directori
+- Si es modifica algun dels usuaris, productes o comandes, la informacio nova es sobreescriu a la informacio anterior dins l'arxiu, es a dir, s'actualitza l'arxiu
+- dirusuaris --> emmagatzema els usuaris en diferents arxius, cada usuari te el seu arxiu
+  dircomandes --> emmagatzema les comandes en arxius, cada comanda te el seu arxiu
+  dirproductes --> emmagatzema els productes, cada producte te el seu arxiu
+
+AMB ARXIUS GENERALS
+- Trobem tres arxius: usuaris, productes, comandes
+- Dins aquests arxius es guarden tots els usuaris, productes o comandes, i si l'administrador elimina algun usuari, producte o comanda, dins aquests arxius es manté la informació
+- Si es modifica algun usuari, comanda o producte, dins aquests arxius s'afegeix la nova informacio, i la versó anterior del usuari, comanda o producte continua existint en alguna línia anterior
+
+
+
+ALTRES ARXIUS DE TEXT
+usuari --> emmagatzema el usuari i contrassenya del administrador
+
+eliminar_comanda --> dins aquest arxiu s'escriu la id d'una comanda quan un usuari solicita eliminar-la. Aquest arxiu es llegeix posteriorment per a que l'administrador seleccioni quina comanda ha d'esborrar.
+eliminar_usuari --> dins aquest arxiu s'escriu el usuari quan un usuari solicita eliminar la seva compte. Aquest arxiu es llegeix posteriorment per a que l'administrador seleccioni quin usuari ha d'esborrar.

@@ -1,0 +1,96 @@
+body{
+background-color: #1F2833;
+font-family: Arial;
+color: #C5C6C7;
+}
+
+h1{
+font-size:150px;
+color:#66FCF1;
+text-align: center;
+padding-top: 150px;
+}
+
+.inici{
+font-size: 30px;
+color: white;
+text-decoration: none;
+padding-right:70px;
+
+}
+
+.inici:hover{
+font-weight:bold;
+font-size:35px;
+}
+
+.inicis{
+padding-top:30px;
+text-align:center;
+}
+
+#benv{
+font-size:50px;
+color:#66FCF1;
+padding-top:120px;
+padding-bottom:80px;
+text-align: center;
+}
+
+.titol{
+font-size:40px;
+color:#66FCF1;
+padding-top:40px;
+padding-bottom:40px;
+text-align: center;
+}
+
+.llista{
+background-color:#C5C6C7;
+padding:40px;
+color:#1F2833;
+font-size:23px;
+}
+
+table, form, button, input, select{
+font-size:23px;
+color:#1F2833;
+}
+
+h3{
+font-size:25px;
+color:#45A29E;
+padding-left: 10%;
+padding-bottom: 20px;
+font-weight:bold;
+}
+
+#cap{
+background-color: #1F2833;
+color: #C5C6C7;
+font-weight:bold;
+}
+
+td{
+padding:15px;
+border: 2px solid #1F2833;
+}
+
+form{
+padding:15px;
+border: 2px solid #1F2833;
+}
+
+button{
+background-color:#1F2833;
+color: #C5C6C7;
+padding: 7px;
+border-radius:9px;
+}
+
+button a{
+font-size: 20px;
+color: white;
+text-decoration: none;
+padding:15px;
+}
